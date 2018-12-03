@@ -164,8 +164,8 @@ $(document).ready(function () {
         draggable: false,
         infinite: true,
         slidesToScroll: 1,
-        prevArrow: '<button class="diplom__slider-prev"><img src="/img/left-arrow__diplom.png" alt="" /></button>',
-        nextArrow: '<button class="diplom__slider-next"><img src="/img/right-arrow__diplom.png" alt="" /></button>',
+        prevArrow: '<button class="diplom__slider-prev"><img src="img/left-arrow__diplom.png" alt="" /></button>',
+        nextArrow: '<button class="diplom__slider-next"><img src="img/right-arrow__diplom.png" alt="" /></button>',
         arrows: true,
         fade: true,
         asNavFor: '.diplom-slider-nav'
@@ -198,8 +198,8 @@ $('#rev-diplom-sl').not(".slick-initialized").slick({
     dots: false,
     infinite: true,
     arrows: true,
-    prevArrow: '<button class="reviews__slider-prev"><img src="/img/left-arrow-diplom.png" alt="" /></button>',
-    nextArrow: '<button class="reviews__slider-next"><img src="/img/right-arrow-diplom.png" alt="" /></button>',
+    prevArrow: '<button class="reviews__slider-prev"><img src="img/left-arrow-diplom.png" alt="" /></button>',
+    nextArrow: '<button class="reviews__slider-next"><img src="img/right-arrow-diplom.png" alt="" /></button>',
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -221,11 +221,6 @@ $('#rev-diplom-sl').not(".slick-initialized").slick({
             }
         }
     ]
-});
-
-
-$(window).on("resize load", function() {
-   console.log($(window).width());
 });
 
 /*THANKS POPUP*/
